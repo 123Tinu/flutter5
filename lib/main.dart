@@ -1,10 +1,11 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter5/checkbox/checkbox1.dart';
-import 'package:flutter5/checkbox/checkboxlist2.dart';
-import 'package:flutter5/my_personal_project/p1.dart';
-
-import 'icons_images/iconsample1.dart';
-import 'my_personal_project/check_1.dart';
+import 'package:flutter5/form/example1.dart';
+import 'package:flutter5/form/example2.dart';
+import 'package:flutter5/stack/example1.dart';
+import 'package:flutter5/stack/example2.dart';
+import 'package:flutter5/stack/example3.dart';
+import 'Assignments/Create Quiz App/create_quiz_app.dart';
 
 main() {
   runApp(const MyApp());
@@ -15,6 +16,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: CheckBox2());
+    return const MaterialApp(
+        //  debugShowCheckedModeBanner: false,
+        home: Form2());
   }
 }
